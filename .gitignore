@@ -1,0 +1,28 @@
+# --- .NET ---
+bin/
+obj/
+*.user
+*.db
+*.db-shm
+*.db-wal
+
+# --- Node / React ---
+node_modules/
+build/
+dist/
+.eslintcache
+
+# --- Secrets - never commit these ---
+.env
+.env.local
+*.pfx
+*.pem
+appsettings.Development.json
+appsettings.*.local.json
+
+# --- Editor / OS ---
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
