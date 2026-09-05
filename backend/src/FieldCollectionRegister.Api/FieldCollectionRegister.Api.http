@@ -1,0 +1,6 @@
+@FieldCollectionRegister.Api_HostAddress = http://localhost:5178
+
+GET {{FieldCollectionRegister.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
