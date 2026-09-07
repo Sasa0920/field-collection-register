@@ -66,7 +66,7 @@ export default function EntryForm({ fieldId, onEntryCreated }) {
         //label="Collection date"
         type="date"
         size="small"
-        InputLabelProps={{ shrink: true }}
+        slotProps={{ inputLabel: { shrink: true } }}
         value={date}
         onChange={(e) => setDate(e.target.value)}
       />
